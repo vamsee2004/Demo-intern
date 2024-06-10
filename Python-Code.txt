@@ -1,0 +1,49 @@
+def chatbot():
+    print("Hello! I am a comprehensive chatbot created for a college project. How can I assist you today?")
+
+    while True:
+        user_input = input("You: ").lower()
+
+        if "hi" in user_input or "hello" in user_input or "hey" in user_input:
+            print("Chatbot: Hello! How can I help you?")
+        elif "how are you" in user_input or "how are you doing" in user_input:
+            print("Chatbot: I'm just a bunch of code, but I'm here to help you!")
+        elif "what is your name" in user_input or "who are you" in user_input:
+            print("Chatbot: I am a comprehensive chatbot created for a college project.")
+        elif "help" in user_input or "assist" in user_input:
+            print("Chatbot: I can answer your questions, chat with you, or provide information.")
+        elif "what can you do" in user_input:
+            print("Chatbot: I can chat with you, provide information, and assist with simple tasks.")
+        elif "thank you" in user_input or "thanks" in user_input:
+            print("Chatbot: You're welcome! Is there anything else I can help you with?")
+        elif "bye" in user_input or "exit" in user_input:
+            print("Chatbot: Goodbye! Have a great day!")
+            break
+        elif "who created you" in user_input or "who is your creator" in user_input:
+            print("Chatbot: I was created by a student for a college project.")
+        elif "what is your purpose" in user_input or "why are you here" in user_input:
+            print("Chatbot: My purpose is to assist you with your queries and provide a conversational interface.")
+        elif "tell me a joke" in user_input or "make me laugh" in user_input:
+            print("Chatbot: Why don't scientists trust atoms? Because they make up everything!")
+        elif "what is the weather like" in user_input:
+            print("Chatbot: I don't have access to real-time data, but you can check a weather website for the latest updates.")
+        elif "what is your favorite color" in user_input:
+            print("Chatbot: As a chatbot, I don't have preferences, but I think blue is quite calming.")
+        elif "can you play a game" in user_input:
+            print("Chatbot: I'm not capable of playing games, but I can tell you a riddle! What has keys but can't open locks? A piano!")
+        elif "tell me about yourself" in user_input:
+            print("Chatbot: I'm a chatbot created using Python. I can chat with you, answer your questions, and provide information.")
+        elif "how do you work" in user_input:
+            print("Chatbot: I work by processing your input and responding with pre-programmed replies. I'm based on simple pattern matching.")
+        elif "what is your favorite food" in user_input:
+            print("Chatbot: I don't eat, but I hear pizza is quite popular!")
+        elif "what is the meaning of life" in user_input:
+            print("Chatbot: Many people have different answers, but a popular one is 42, from 'The Hitchhiker's Guide to the Galaxy'.")
+        elif "what is your age" in user_input:
+            print("Chatbot: I don't have an age, as I'm just a program running on a computer.")
+        else:
+            print("Chatbot: I'm sorry, I don't understand that. Can you please rephrase?")
+
+# Run the chatbot function
+chatbot()
+    
